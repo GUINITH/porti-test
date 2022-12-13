@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{ 
+ text-decoration:none;
+ font-family:"Poppins", Sans-serif;
+  box-sizing:border-box;
+}
+span{
+  color:white;
+}
+
+body{
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/img/fundo.png);
+overflow: hidden;
+}
+
+img{
+width: 80px;
+height: 80px;
+
+
+
+}
+.nav-item ul{
+list-style: none;
+}
+
+.nav-bar{ 
+display:flex;
+justify-content: center;
+font-size:35px;
+}
+
+.nav-item a{
+  color:white;
+}
+
+a:hover{
+  color:blueviolet;
+}
+
+.home-text{
+  padding: 130px 35px;
+  font-size:45px;
+  
+}
+h1,p{
+  color: blueviolet;
+}
+
+button{
+ text-align:center;
+ background: blueviolet;
+ font-size:35px;
+  box-shadow: black 15px;
+  border-radius:10px;
+}
+
+button:hover{
+  
+  background-color:white;
+}
+
+.fundo{
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/img/fundo.png);
+    background-position: center;
+    width: auto;
+    height: 100vh;
+   
+
+}
+
+.Rede-sociais{
+  font-size: 30px;
+cursor:pointer;
+padding:7px;
+margin:7px;
+  
+}
+.Rede-sociais a{
+ color:white;
+}
+
+.Rede-sociais a:hover{
+ color:blueviolet;
+}
+
+p{
+  font-size:25px;
+}
+h1{
+  border-right: 4px solid;
+    width: 14ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(14), blinking 0.5s infinite
+     step-end alternate;
+
+}
+
+
+
+@keyframes typing{
+ from{
+    width: 0px;
+
+ }
+}
+
+@keyframes blinking{
+    50%{
+        border-color: transparent;
+    }
+    
+}
