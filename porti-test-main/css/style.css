@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{ 
+ text-decoration:none;
+ font-family:"Poppins", Sans-serif;
+  box-sizing:border-box;
+}
+span{
+  color: black;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+overflow: hidden;
+}
+.nav-item ul{
+list-style: none;
+}
+
+.nav-bar{ 
+display:flex;
+justify-content:center;
+font-size:20px; 
+}
+.nav-bar i{
+padding-left: 25px;
+}
+
+.nav-item a{
+  color:white;
+}
+
+a:hover{
+  color: orange;
+}
+
+.home-text{
+  padding: 150px 0 0 30px;
+  font-size:56px;
+  
+}
+h1,p{
+  color: orange;
+}
+
+button{
+  color: white;
+ text-align:center;
+ background: transparent;
+ font-size: 30px;
+  box-shadow: black 15px;
+  border-radius:5px;
+}
+
+button:hover{
+  
+  background-color:orange;
+}
+
+.fundo{
+background: url(/porti-test-main/img/fundo5.png);
+background-size: cover;
+ background-position: center;
+    width: auto;
+    height: 100vh;
+   
+
+}
+
+
+.Rede-sociais{
+  font-size: 30px;
+cursor:pointer;
+padding:7px;
+margin:7px;
+  
+}
+.Rede-sociais a{
+ color:white;
+}
+
+.Rede-sociais a:hover{
+ color: orange;
+}
+
+p{
+  font-size:30px;
+}
+h1{
+  border-right: 4px solid;
+    width: 14ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(14), blinking 0.5s infinite
+     step-end alternate;
+
+}
+
+
+
+@keyframes typing{
+ from{
+    width: 0px;
+
+ }
+}
+
+@keyframes blinking{
+    50%{
+        border-color: transparent;
+    }
+    
+}
+
